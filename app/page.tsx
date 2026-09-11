@@ -9,7 +9,7 @@ import {
   Ship,
   FlaskConical,
   Mail,
-  Phone,
+
   MapPin,
   Building2,
   Factory,
@@ -657,8 +657,8 @@ export default function EurostarChemicals() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />{" "}
-                  <a href="mailto:rafiq@eurostar.co.za" className="hover:underline">
-                    rafiq@eurostar.co.za
+                  <a href="mailto:rafique@eurostar.co.za" className="hover:underline">
+                    rafique@eurostar.co.za
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
@@ -673,20 +673,7 @@ export default function EurostarChemicals() {
                     accounts@eurostar.co.za
                   </a>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" />{" "}
-                  <a href="tel:+27837868549" className="hover:underline">
-                    +27 83 786 8549
-                  </a>{" "}
-                  (Rafiq)
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" />{" "}
-                  <a href="tel:+27837863161" className="hover:underline">
-                    +27 83 786 3161
-                  </a>{" "}
-                  (Naseem)
-                </div>
+               
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" /> Durban, South Africa
                 </div>
