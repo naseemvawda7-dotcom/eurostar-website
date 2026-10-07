@@ -340,7 +340,7 @@ export default function Page() {
       product && `Product / grade: ${product}`, quantity && `Quantity / capacity: ${quantity}`,
       destination && `${enquiryType === 'supplier' ? 'Origin / export markets' : 'Delivery destination'}: ${destination}`,
       terms && `Trade terms / timing: ${terms}`, '', form.message,
-    ].filter(line => line !== false).join('\n');
+    ].join('\n');
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 30000);
     try {
